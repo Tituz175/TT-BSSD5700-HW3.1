@@ -49,7 +49,7 @@ function drawKeyPoints() {
   for (let i = 0; i < poses.length; i++) {
     let pose = poses[i];
 
-    //Homework 1: draw a head circle at the nose that covers the whole head
+    //draw a head circle at the nose that covers the whole head
     let headNose = pose.keypoints[0];
     let headEyeY = pose.keypoints[2].y;
     fill(255);
